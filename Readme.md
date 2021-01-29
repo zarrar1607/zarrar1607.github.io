@@ -1,5 +1,5 @@
 # TRM Exam Website:
-<a href = "https://github.com/zarrar1607/zarrar1607.github.io/index.html">https://github.com/zarrar1607/zarrar1607.github.io/index.html</a>
+<a href = "https://zarrar1607.github.io">https://zarrar1607.github.io</a>
 
 The idea is to create a exam website where the data will be stored in google sheets. Inorder to do so, I am going to use technolgies like:
 

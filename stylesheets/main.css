@@ -1,0 +1,97 @@
+*,
+*:before,
+*:after{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+}
+body{
+	background-color: rgb(18, 0, 46);
+}
+.section {
+	display: flex;
+	height: 200vh;
+	flex-direction: row;
+	align-items: top;
+	justify-content: center;
+}
+.row{
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+section{
+	text-align: center;
+	margin-bottom: 30px;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size: large;
+	background-color: rgb(242, 234, 255);
+	border-radius: 1em;
+}
+.col-md-3{
+	background-color: rgba(18, 0, 46, 0.733);
+	border-radius: 50%;
+}
+.events{
+	background-image: url("https://github.com/zarrar1607/zarrar1607.github.io/blob/main/images/coming%20soon.jpg?raw=true");
+}
+/*
+Header
+*/
+header{
+	background-color: black;
+}
+h1{
+	font-family:fantasy;
+	font-weight:900;
+	font-size: 100px;
+	color:  rgba(255, 81, 0, 0.692);
+	border-bottom: 5px solid rgb(255, 81, 0);
+	color:rgba(20, 1, 49, 0.733);
+	color:rgba(71, 30, 131, 0.733);
+	border-bottom: 5px dashed rgb(18, 0, 46);
+}
+
+
+
+/*
+Footer
+*/
+footer{
+	background-color: black;
+}
+.fa {  
+	padding: 15px;  
+	text-align: left;  
+	font-size: 16px;
+	border-radius: 50%;
+	background: transparent; 
+	border: 1px solid white;
+	color: white;  
+}
+.fa-facebook:hover{ 
+	background: #3B5998;
+	border: 1px solid transparent;  
+}  
+.fa-google:hover{
+	background: #dd4b39;
+	border: 1px solid transparent; 
+}
+.fa-linkedin:hover {
+	background: #007bb5;
+	border: 1px solid transparent; 
+}
+.fa-instagram{
+	background: transparent;
+	border: 1px solid white;
+}
+.fa-instagram:hover  {
+	background: #d6249f;
+	border: 1px solid #d6249f;
+
+}
+.fa-envelope-open-o:hover{
+	background: #d1260f;
+	border: 1px solid transparent;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Exam Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <script>
+
+        $(document).ready(function () {
+            //parallax scroll
+            $(window).on("load scroll", function () {
+                var parallaxElement = $(".parallax_scroll"),
+                    parallaxQuantity = parallaxElement.length;
+                window.requestAnimationFrame(function () {
+                    for (var i = 0; i < parallaxQuantity; i++) {
+                        var currentElement = parallaxElement.eq(i),
+                            windowTop = $(window).scrollTop(),
+                            elementTop = currentElement.offset().top,
+                            elementHeight = currentElement.height(),
+                            viewPortHeight = window.innerHeight * 0.5 - elementHeight * 0.5,
+                            scrolled = windowTop - elementTop + viewPortHeight;
+                        currentElement.css({
+                            transform: "translate3d(0," + scrolled * -0.33 + "px, 0)"
+                        });
+                    }
+                });
+            });
+        });
+
+    
+
+    </script>
+
+</head>
+
+<body>
+    <!--Header-->
+    <header class="parallax_scroll">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="images/TRM-19-GIF_Trim.gif">
+            </div>
+        </div>
+    </header>
+    <!--About TRM-->
+    <section>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Team Robocon MJCET</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="about col-md-4"></div>
+            <div class="about col-md-4">
+                <p>6 <br>lines <br>in <br>center</p>
+            </div>
+            <div class="about col-md-4"></div>
+        </div>
+
+    </section>
+    <!--Events-->
+    <section class = "events">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Events</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </section>
+    <!--Team Heads-->
+    <section >
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Team Heads</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+            </div>
+            <div class="col-md-3">
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+            </div>
+            <div class="col-md-3">
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+            </div>
+            <div class="col-md-3">
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+                . <br>
+            </div>
+        </div>
+    </section>
+    <!--Footer-->
+    <footer>
+        <div class="row">
+            <!--Copyright-->
+            <div class="col-md-4">
+                <a href="https://github.com/zarrar1607/">&copy; Mohammed Misbah Zarrar</a>
+            </div>
+            <div class="col-md-4"></div>
+            <!--Social Handles-->
+            <div class="col-md-4">
+                <a href="https://www.facebook.com/mjcollege/" class="fa fa-facebook"></a>
+                <a href="https://mjcollege.ac.in" class="fa fa-google"></a>
+                <a href="https://www.linkedin.com/school/muffakham-jah-college-of-engineering-&-technology/?originalSubdomain=in"
+                    class="fa fa-linkedin"></a>
+                <a href="https://www.instagram.com/explore/locations/239868996/muffakham-jah-college-of-engineering-and-technology/"
+                    class="fa fa-instagram"></a>
+                <a href="mailto:zarrar1607@gmail.com" class="fa fa-envelope-open-o"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

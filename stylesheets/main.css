@@ -7,7 +7,7 @@
 }
 body{
 	background-color: rgb(18, 0, 46);
-background-color:white;
+background-color: rgb(0, 0, 0);
 }
 .section {
 	display: flex;

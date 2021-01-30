@@ -28,12 +28,12 @@
                         currentElement.css({
                             transform: "translate3d(0," + scrolled * -0.33 + "px, 0)"
                         });
+                        var opacity = ((elementHeight - windowTop )/ elementHeight);
+                        $(".topbar").css({ "opacity": opacity })
                     }
                 });
             });
         });
-
-    
 
     </script>
 
@@ -41,7 +41,7 @@
 
 <body>
     <!--Header-->
-    <header class="parallax_scroll">
+    <header class="parallax_scroll topbar">
         <div class="row">
             <div class="col-md-12">
                 <img src="images/TRM-19-GIF_Trim.gif">
@@ -49,7 +49,7 @@
         </div>
     </header>
     <!--About TRM-->
-    <section>
+    <section class="card">
         <div class="row">
             <div class="col-md-12">
                 <h1>Team Robocon MJCET</h1>
@@ -62,10 +62,9 @@
             </div>
             <div class="about col-md-4"></div>
         </div>
-
     </section>
     <!--Events-->
-    <section class = "events">
+    <section class="events card">
         <div class="row">
             <div class="col-md-12">
                 <h1>Events</h1>
@@ -83,7 +82,7 @@
         </div>
     </section>
     <!--Team Heads-->
-    <section >
+    <section class="card">
         <div class="row">
             <div class="col-md-12">
                 <h1>Team Heads</h1>
@@ -133,8 +132,6 @@
         </div>
     </section>
     <!--Footer-->
-    <div class="row">
-    <div class="col-md-12">
     <footer>
         <div class="row">
             <!--Copyright-->
@@ -154,8 +151,6 @@
             </div>
         </div>
     </footer>
-</div>
-</div>
 </body>
 
 </html>

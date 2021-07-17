@@ -1,0 +1,265 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRM Website</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/ba8572e3f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="scripts/header.js"></script>
+    
+    <!--light-box-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">    
+     
+</head>
+
+<body>
+    <!-------------------------------------
+    ---------------------------------------
+                    HEADER
+    --------------------------------------- 
+    --------------------------------------->
+    <header class="sticky-top">
+
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/TRM Logo.png" height="50px" width="100px" alt="TRM">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo02">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button"data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                            ABOUT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="teams.html">Teams</a>
+                            <a class="dropdown-item" href="#">Certificates</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            ROBOTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="robocon.html">Robocon</a>
+                            <a class="dropdown-item" href="R&D.html">Research & Development</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item rightmost"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-------------------------------------
+    ---------------------------------------
+        Robocon Certificate/Standings
+    --------------------------------------- 
+    --------------------------------------->
+    <div class="jumbotron jumbotron-fluid  bg-dark text-white">
+        <div class="container text-center">
+            <h1 class="display-3 my-4">ABU Robocon</h1>
+            <hr class = "bg-light my-4">
+            <ul class="nav nav-tabs scrolling-wrapper row flex-row flex-nowrap mt-4 pb-4 pt-2 scrollbar-primary" id="myTab" role="tablist">
+                <!--2021 Tab Header-->
+                <li class="nav-item">
+                    <a class="nav-link active" id="tab-2021" data-toggle="tab" href="#t-2021" role="tab" aria-controls="t-2021"
+                    aria-selected="true">2021</a>
+                </li>
+                <!--2020 Tab Header-->
+                <li class="nav-item">
+                    <a class="nav-link" id="tab-2020" data-toggle="tab" href="#t-2020" role="tab" aria-controls="t-2020"
+                    aria-selected="false">2020</a>
+                </li>
+                <!--2019 Tab Header-->
+                <li class="nav-item">
+                    <a class="nav-link" id="tab-2019" data-toggle="tab" href="#t-2019" role="tab" aria-controls="t-2019"
+                    aria-selected="false">2019</a>
+                </li>
+                <!--2018 Tab Header-->
+                <li class="nav-item">
+                    <a class="nav-link" id="tab-2019" data-toggle="tab" href="#t-2019" role="tab" aria-controls="t-2019"
+                    aria-selected="false">2018</a>
+                </li>
+                <!--2017 Tab Header-->
+                <li class="nav-item">
+                    <a class="nav-link" id="tab-2019" data-toggle="tab" href="#t-2019" role="tab" aria-controls="t-2019"
+                    aria-selected="false">2017</a>
+                </li>
+                <!--2016 Tab Header-->
+                <li class="nav-item">
+                    <a class="nav-link" id="tab-2019" data-toggle="tab" href="#t-2019" role="tab" aria-controls="t-2019"
+                    aria-selected="false">2016</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <!--2021 Tab Content-->
+                <div class="tab-pane fade show active" id="t-2021" role="tabpanel" aria-labelledby="tab-2021">
+                    <div class="photo-gallery">
+                        <div class="row justify-content-center align-center">
+                            <div class="col-12 col-lg-4 salign-self-center item">
+                                <a href="images/TRM Results/2021 stage 1.png" data-lightbox="photos" 
+                                data-title = "We were rank x in stage 3 and secured total of y points &lt;a href='pdf/2021 stage 1.pdf' target='_blank'>Read more&lt;/a> ">
+                                    <img class="img-fluid" src="images/TRM Results/2021 stage 1.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--2020 Tab Content-->
+                <div class="tab-pane fade" id="t-2020" role="tabpanel" aria-labelledby="tab-2020">
+                    <div class="photo-gallery">
+                        <div class="row justify-content-center align-center">
+                            <div class="col-12 col-lg-4 salign-self-center item">
+                                <a href="images/TRM Results/2020 stage 3.png" data-lightbox="photos" 
+                                data-title = "We were rank x in stage 3 and secured total of y points &lt;a href='pdf/2020 stage 3.pdf' target='_blank'>Read more&lt;/a> ">
+                                    <img class="img-fluid" src="images/TRM Results/2020 stage 3.png">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-4 align-self-center item">
+                                <a href="images/TRM Results/2020 stage 2.png" data-lightbox="photos" 
+                                data-title = "We were rank x in stage 2 and secured total of y points &lt;a href='pdf/2020 stage 2.pdf' target='_blank'>Read more&lt;/a> ">
+                                    <img class="img-fluid" src="images/TRM Results/2020 stage 2.png">
+                                </a>
+                            </div>
+                            <div class="col-12 col-lg-4 align-self-center item">
+                                <a href="images/TRM Results/2020 stage 1.png" data-lightbox="photos" 
+                                data-title = "We were rank x in stage 1 and secured total of y points &lt;a href='pdf/2020 stage 1.pdf' target='_blank'>Read more&lt;/a> ">
+                                    <img class="img-fluid" src="images/TRM Results/2020 stage 1.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--2019 Tab Content-->
+                <div class="tab-pane fade" id="t-2019" role="tabpanel" aria-labelledby="tab-2019">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-------------------------------------
+    ---------------------------------------
+        Other Competition Certificates
+    --------------------------------------- 
+    --------------------------------------->
+    <div class="jumbotron jumbotron-fluid  bg-light text-dark">
+        <div class="container text-center">
+            <h1 >Other Achivements</h1>
+            <hr class="my-4">
+            <div class="photo-gallery">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-4 item">
+                        <a href="images/Other Certificate.jpg" data-lightbox="photos" 
+                        data-title = "This is a certificate caption to write description of the competition and additional extra information">
+                            <img class="img-fluid" src="images/Other Certificate.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 item">
+                        <a href="images/Other Certificate.jpg" data-lightbox="photos" 
+                        data-title = "This is a certificate caption to write description of the competition and additional extra information">
+                            <img class="img-fluid" src="images/Other Certificate.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 item">
+                        <a href="images/Other Certificate.jpg" data-lightbox="photos" 
+                        data-title = "This is a certificate caption to write description of the competition and additional extra information">
+                            <img class="img-fluid" src="images/Other Certificate.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 item">
+                        <a href="images/Other Certificate.jpg" data-lightbox="photos" 
+                        data-title = "This is a certificate caption to write description of the competition and additional extra information">
+                            <img class="img-fluid" src="images/Other Certificate.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 item">
+                        <a href="images/Other Certificate.jpg" data-lightbox="photos" 
+                        data-title = "This is a certificate caption to write description of the competition and additional extra information">
+                            <img class="img-fluid" src="images/Other Certificate.jpg">
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-4 item">
+                        <a href="images/Other Certificate.jpg" data-lightbox="photos" 
+                        data-title = "This is a certificate caption to write description of the competition and additional extra information">
+                            <img class="img-fluid" src="images/Other Certificate.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-------------------------------------
+    ---------------------------------------
+                FOOTER
+    --------------------------------------- 
+    --------------------------------------->
+    <footer class="page-footer font-small bg-dark text-white Footer">
+        <div class="container text-left">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h5>TRM</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="teams.html">Team Members</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="robocon.html">TRM Robots</a></li>
+                        <li><a href="R&D.html">R&D<span class ="text-lowercase">s</span></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Event Updates</h5>
+                    <form class="text-left">
+                        <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4"
+                            placeholder="Your email address">
+                        <button class="btn btn-danger" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr class="bg-light mt-4">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center pb-4">
+            © 2021 Copyright:<a href="index.html"> Team Robocon MJCET</a>
+        </div>
+    </footer>
+
+
+
+    
+
+    <!--Light-box-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
+</body>
+
+</html>

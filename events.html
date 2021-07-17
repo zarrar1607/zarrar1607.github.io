@@ -1,0 +1,201 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRM Website</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/ba8572e3f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheets/main.css">
+
+</head>
+
+<body>
+    <!-------------------------------------
+    ---------------------------------------
+                    HEADER
+    --------------------------------------- 
+    --------------------------------------->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/TRM Logo.png" height="50px" width="100px" alt="TRM">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo02">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            ABOUT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="teams.html">Teams</a>
+                            <a class="dropdown-item" href="certificates.html">Certificates</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            ROBOTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="robocon.html">Robocon</a>
+                            <a class="dropdown-item" href="R&D.html">Research & Development</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item rightmost">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-------------------------------------
+    ---------------------------------------
+                Upcoming Events
+    --------------------------------------- 
+    --------------------------------------->
+    <section class="Events" id="UpComing">
+        <div class="jumbotron jumbotron-fluid  bg-light text-dark">
+            <div class="container text-center">
+                <h1>UpComing Events</h1>
+                <hr class="my-4 bg-dark">
+                <div class="poster row">
+                    <div class="col-12 col-md-6 align-self-center">
+                        <a data-fslightbox="Event_gallery" href="images/App Development Poster.png">
+                            <img src="images/App Development Poster.png" class = "img-fluid" alt="">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 bg-white align-self-cente poster-content">
+                        <h3>App Development</h3>
+                        <p>Timing:</p>
+                        <ul class = "lead list-unstyled">
+                            <li>19th June - 3PM to 5PM</li>
+                            <li>19th June - 3PM to 5PM</li>
+                        </ul>
+                        <p>Contact:</p>
+                        <ul class = "lead list-unstyled">
+                            <li>Shazad - 8712710568</li>
+                            <li>Shazad - 8712710568</li>
+                        </ul>
+                        <p>Syllabus: <a href="#"><i class="fa fa-file-pdf-o"></i></a></p>
+                        <p class = "lead">
+                            <a class="btn btn-register btn-lg" href="#" role="button">Register</a>
+                        </p>
+                    </div>
+                </div>
+                <!-----------------------
+                            OR
+                ------------------------->
+                <img src="images/ComingSoon.gif" class = "img-fluid" alt="">
+            </div>
+        </div>
+    </section>   
+    <!-------------------------------------
+    ---------------------------------------
+                Past Events
+    --------------------------------------- 
+    --------------------------------------->
+    <section class="Events jumbotron text-center">
+        <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="false">
+            <div class="card Past-Events">
+                <!-- Header -->
+                <div class="card-header " role="tab" id="headingEvent">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseEvent"
+                        aria-expanded="false" aria-controls="collapseEvent">
+                        <h1 class="mb-0">Past Events</h1>
+                    </a>
+                </div>
+                <!-- Body -->
+                <div class="Events-content collapse" id="collapseEvent" class="collapse" role="tabpanel" aria-labelledby="headingEvent"
+                    data-parent="#accordionEx">
+                    <div class="poster row">
+                        <div class="col-12 col-md-6 align-self-center">
+                            <a data-fslightbox="Event_gallery" href="images/App Development Poster.png">
+                                <img src="images/App Development Poster.png" widht = 334 height= 445 alt="">
+                            </a>
+                        </div>
+                        <div class="col-12 col-md-6 bg-white align-self-cente poster-content">
+                            <h3>App Development</h3>
+                            <p class = "lead my-4">poster-content</p>
+                            <p class="Registraion_Close"><i class="fa fa-clock-o"></i> Registration Closed</p>
+                        </div>
+                    </div>
+                    <div class="poster row">
+                        <div class="col-12 col-md-6 align-self-center">poster</div>
+                        <div class="col-12 col-md-6 bg-white align-self-cente poster-content">
+                            <h3>Poster Heading</h3>
+                            <p class = "lead my-4">poster-content</p>
+                            <p class="Registraion_Close"><i class="fa fa-clock-o"></i> Registration Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-------------------------------------
+    ---------------------------------------
+                FOOTER
+    --------------------------------------- 
+    --------------------------------------->
+    <footer class="page-footer font-small bg-dark text-white Footer">
+        <div class="container text-left">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h5>TRM</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="teams.html">Team Members</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="robocon.html">TRM Robots</a></li>
+                        <li><a href="R&D.html">R&D<span class ="text-lowercase">s</span></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Event Updates</h5>
+                    <form class="text-left">
+                        <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4"
+                            placeholder="Your email address">
+                        <button class="btn btn-danger" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr class="bg-light mt-4">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center pb-4">
+            © 2021 Copyright:<a href="index.html"> Team Robocon MJCET</a>
+        </div>
+    </footer>
+
+
+    <!--fsLight-box(For videos also)-->
+    <script src="fslightbox-basic-3.3.0/fslightbox.js"></script>
+
+
+</body>

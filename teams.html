@@ -1,0 +1,595 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRM Website</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/ba8572e3f5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <script src="scripts/header.js"></script>
+
+
+</head>
+
+<body>
+    <!-------------------------------------
+    ---------------------------------------
+                    HEADER
+    --------------------------------------- 
+    --------------------------------------->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/TRM Logo.png" height="50px" width="100px" alt="TRM">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end " id="navbarTogglerDemo02">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            ABOUT
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Teams</a>
+                            <a class="dropdown-item" href="certificates.html">Certificates</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            ROBOTS
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="robocon.html">Robocon</a>
+                            <a class="dropdown-item" href="R&D.html">Research & Development</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item rightmost"><a class="nav-link" href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-------------------------------------
+    ---------------------------------------
+                Teams
+        img size = 250x250 or 520x520
+    --------------------------------------- 
+    --------------------------------------->
+    <section class="Teams jumbotron text-center">
+        <!--Accordion wrapper-->
+        <div class="accordion md-accordion" id="accordionEx" role="tablist" aria-multiselectable="true">
+            <!----------------
+                Current Team
+            ------------------>
+            <!-- 2021 Accordion card -->
+            <div class="card Current-Team">
+                <div class="card-header" role="tab" id="heading2021">
+                    <a data-toggle="collapse" data-parent="#accordionEx" href="#collapse2021" aria-expanded="true"
+                        aria-controls="collapse2021">
+                        <h5 class="mb-0">Team 2021</h5>
+                    </a>
+                </div>
+                <div id="collapse2021" class="collapse show" role="tabpanel" aria-labelledby="heading2021"
+                    data-parent="#accordionEx">
+                    <div class="card-body">
+                        <!--Final Years/ Heads /Core Members-->
+                        <div class="text-center">
+                            <div class="container">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 ">
+                                    <!--Shazad Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b>Team Captain</b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text">Mechanincal Leader</p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Shazad</h4>
+                                    </div>
+                                    <!--Azhar Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b>Vice Team Captain</b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text"></p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Azhar</h4>
+                                    </div>
+                                    <!--Zarrar Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b>Head Programmer</b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text">Developer of <a href="index.html"
+                                                                style="color: black; font-weight: bold;">TRM
+                                                                Website</a>, AI/ML Specialist</p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Zarrar</h4>
+                                    </div>
+                                    <!--Empty Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b></b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text"></p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Empty Card</h4>
+                                    </div>
+                                    <!--Empty Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b></b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text"></p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Empty Card</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--To be TRM Members-->
+                        <div class="To-be text-center">
+                            <div class="container">
+                                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 ">
+                                    <!--Abrar-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center align-self-center">
+                                                    <div class="align-self-center col-12"><a href="#"><i
+                                                                class="fab fa-linkedin-in"></i></a></div>
+                                                    <div class="align-self-centercol-12"> <a href="#"><i
+                                                                class="fab fa-github"></i></a></div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h5 class="card-title">Abrar</h5>
+                                    </div>
+
+                                    <!--Empty Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center align-self-center">
+                                                    <div class="col-12 align-self-center"><a href="#"><i
+                                                                class="fab fa-linkedin-in"></i></a></div>
+                                                    <div class="col-12 align-self-center"> <a href="#"><i
+                                                                class="fab fa-github"></i></a></div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h5 class="card-title">Empty</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!----------------
+                Past Teams
+            ------------------>
+            <!-- 2020 Accordion card -->
+            <div class="card Past-Teams">
+                <!-- Card header -->
+                <div class="card-header" role="tab" id="heading2020">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapse2020"
+                        aria-expanded="false" aria-controls="collapse2020">
+                        <h5 class="mb-0">Team 2020</h5>
+                    </a>
+                </div>
+
+                <!-- Card body -->
+                <div id="collapse2020" class="collapse" role="tabpanel" aria-labelledby="heading2020"
+                    data-parent="#accordionEx">
+                    <div class="card-body">
+                        <!--Final Years/ Heads /Core Members-->
+                        <div class="text-center">
+                            <div class="container">
+                                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 ">
+                                    <!--Shazad Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b>Team Captain</b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text">Mechanincal Leader</p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Shazad</h4>
+                                    </div>
+                                    <!--Azhar Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b>Vice Team Captain</b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text"></p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Azhar</h4>
+                                    </div>
+                                    <!--Zarrar Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b>Head Programmer</b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text">Developer of <a href="index.html"
+                                                                style="color: black; font-weight: bold;">TRM
+                                                                Website</a>, AI/ML Specialist</p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Zarrar</h4>
+                                    </div>
+                                    <!--Empty Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b></b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text"></p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Empty Card</h4>
+                                    </div>
+                                    <!--Empty Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center">
+                                                    <div class="col-12 align-self-start"><b></b>
+                                                        <hr>
+                                                    </div>
+                                                    <div class="col-12 align-self-center">
+                                                        <p class="card-text"></p>
+                                                    </div>
+                                                    <div class="col-12 align-self-end">
+                                                        <hr>
+                                                        <div class="row">
+                                                            <div class="col"><a href="#"><i
+                                                                        class="fab fa-linkedin-in"></i></a></div>
+                                                            <div class="col"> <a href="#"><i
+                                                                        class="fab fa-github"></i></a></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h4 class="card-title">Empty Card</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--To be TRM Members-->
+                        <div class="To-be text-center">
+                            <div class="container">
+                                <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 ">
+                                    <!--Abrar-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center align-self-center">
+                                                    <div class="align-self-center col-12"><a href="#"><i
+                                                                class="fab fa-linkedin-in"></i></a></div>
+                                                    <div class="align-self-centercol-12"> <a href="#"><i
+                                                                class="fab fa-github"></i></a></div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h5 class="card-title">Abrar</h5>
+                                    </div>
+
+                                    <!--Empty Card-->
+                                    <div class="col team-member">
+                                        <figure class="card card-flip">
+                                            <div class="card team-member">
+                                                <img class="rounded-circle card-img img-fluid"
+                                                    src="https://mdbootstrap.com/img/Photos/Avatars/img%20%2810%29.jpg"
+                                                    alt="Shazad">
+                                            </div>
+                                            <div class="card">
+                                                <div class="card-body row justify-content-center align-self-center">
+                                                    <div class="col-12 align-self-center"><a href="#"><i
+                                                                class="fab fa-linkedin-in"></i></a></div>
+                                                    <div class="col-12 align-self-center"> <a href="#"><i
+                                                                class="fab fa-github"></i></a></div>
+                                                </div>
+                                            </div>
+                                        </figure>
+                                        <h5 class="card-title">Empty</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2019 Accordion card -->
+            <div class="card Past-Teams">
+
+                <!-- Card header -->
+                <div class="card-header" role="tab" id="heading2019">
+                    <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapse2019"
+                        aria-expanded="false" aria-controls="collapse2019">
+                        <h5 class="mb-0">Team 2019</h5>
+                    </a>
+                </div>
+
+                <!-- Card body -->
+                <div id="collapse2019" class="collapse" role="tabpanel" aria-labelledby="heading2019"
+                    data-parent="#accordionEx">
+                    <div class="card-body">
+                        Emty
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-------------------------------------
+    ---------------------------------------
+                FOOTER
+    --------------------------------------- 
+    --------------------------------------->
+    <footer class="page-footer font-small bg-dark text-white Footer">
+        <div class="container text-left">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4">
+                    <h5>TRM</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="teams.html">Team Members</a></li>
+                        <li><a href="certificates.html">Certificates</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <h5>Resources</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="robocon.html">TRM Robots</a></li>
+                        <li><a href="R&D.html">R&D<span class ="text-lowercase">s</span></span></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Event Updates</h5>
+                    <form class="text-left">
+                        <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4"
+                            placeholder="Your email address">
+                        <button class="btn btn-danger" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr class="bg-light mt-4">
+        <!-- Copyright -->
+        <div class="footer-copyright text-center pb-4">
+            © 2021 Copyright:<a href="#"> Team Robocon MJCET</a>
+        </div>
+    </footer>
+</body>
+
+</html>

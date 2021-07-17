@@ -1,0 +1,756 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+a:hover{
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*
+---------------------------------------
+---------------------------------------
+        Header
+--------------------------------------- 
+---------------------------------------
+*/
+h1{
+    font-family: "Roboto";
+    text-transform: uppercase;
+}
+h3{
+    font-family: "Roboto";
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+h5{
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2.5px;
+    color: #000;
+}
+/*
+*
+========================
+    Header/Nav
+========================
+*
+*/
+section.card.head_img{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    text-decoration: none;
+    font-size: 22px;
+    box-shadow: 0px 3px 8px #888888;
+}
+header .bg-light {
+    background-color: rgb(248, 249, 250, 0.95)!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, 0.911);
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(0, 0, 0, 0.911);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.navbar-nav .nav-link{
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-right: 35px;
+    text-transform: uppercase;
+}
+.navbar-nav .rightmost .nav-link{
+    margin-right: 0;
+}
+
+.navbar-nav .nav-link:hover{
+ background-color: rgb(174, 178, 204);
+ border-radius: 3em;
+ font-weight: 500;
+}
+/*
+---------------------------------------
+---------------------------------------
+        Footer
+--------------------------------------- 
+---------------------------------------
+*/
+footer{
+    padding-top: 40px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+}
+footer ul>li:first-child{
+    padding-top:0px;
+}
+footer ul>li:last-child{
+    padding-bottom:0px;
+}
+footer ul>li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer ul>li:not(li:last-child){
+    border-bottom: 1px solid;
+}
+footer li{
+    padding-left: 10px;
+    
+}
+footer a{
+    color: rgb(136 136 136);
+}
+footer .container a:hover{
+    padding-left: 15px;
+    color: #ffff;
+}
+footer a:hover{
+    color: #ffff;
+}
+footer h5{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/*
+---------------------------------------
+---------------------------------------
+        Button
+--------------------------------------- 
+---------------------------------------
+*/
+.btn{
+    border-radius: 3em;
+    font-family: "Roboto";
+    font-weight: 900;
+    letter-spacing: 0.9px;
+    text-transform: uppercase;
+    border-width: 0px;
+    padding: 15px 30px;
+}
+.btn-primary{
+    color: #ffffff;
+    background-color: rgb(17 17 17);
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 10%);
+}
+.btn-primary:hover{
+    background-color:rgba(0,0,0,0.8);
+    box-shadow: 0px 0px 15px 10px rgb(0,123,225);
+}
+.btn-secondary{
+    color: rgb(77, 77, 77);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 10%);
+}
+.btn-secondary:hover{
+    color: #ffffff;
+    background-color: #000000;
+    box-shadow: 0px 0px 15px 10px rgb(0,123,225);
+}
+.btn-danger{
+    box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 10%);
+}
+.btn-danger:hover{
+    box-shadow: 0px 0px 15px 10px rgb(220, 53, 70,0.5);
+}
+.btn-register{
+    color: rgb(0 208 34);
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10px 10px rgb(0 208 34);
+}
+.btn-register:hover{
+    color: #ffffff;
+    background-color: rgb(0 182 8);
+    box-shadow: inset 0px 0px 15px 10px rgb(7 255 48);
+}
+/*
+---------------------------------------
+---------------------------------------
+        Jumbotron, sections, background
+--------------------------------------- 
+---------------------------------------
+*/
+.jumbotron{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.bg-dark{
+    background-color: black!important;
+}
+/*Robot intro section*/
+#robots .jumbotron{
+    padding: 0px;
+}
+/*
+---------------------------------------
+---------------------------------------
+    Horizontal Scrolling for events
+--------------------------------------- 
+---------------------------------------
+*/
+.scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+}
+
+.scrolling-wrapper ::-webkit-scrollbar {
+      display: none;
+}
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+.scrollbar-primary::-webkit-scrollbar {
+    width: 5px;
+    height: 12px;
+    border-radius: 2rem;
+    background-color: rgba(0, 0, 0, 0);
+}
+.scrollbar-primary::-webkit-scrollbar-thumb {
+    border-radius: 2rem;
+    border: 1px solid blue;
+    box-shadow: inset 0px 0px 4px 2px rgb(0,17,255);
+    background-color: rgb(255, 255, 255); 
+}
+.scrollbar-primary {
+    scrollbar-color: rgb(0,17,255) rgba(0, 0, 0, 0);
+}
+
+/*cards*/
+.card-block{
+	border: none;
+	transition: all 0.2s ease-in-out !important;
+    background-color: transparent;
+}
+.card-block:hover{
+    transform: translateY(-5px);
+    box-shadow: none;
+}
+.card-block img {
+    border-radius: 2em;
+}
+.card-title{
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-weight: 900;
+    letter-spacing: 0.9px;
+}
+#reg-open{
+    color: rgba(1, 255, 1, 0.8);
+}
+#reg-open:hover{
+    color: rgb(1, 255, 1);
+    transform: translateY(0px);
+}
+#reg-close{
+    color:rgba(255, 0, 0, 0.8);
+}
+#reg-close:hover{
+    color:rgb(255, 0, 0);
+}
+/*
+---------------------------------------
+---------------------------------------
+        Form
+--------------------------------------- 
+---------------------------------------
+*/
+.form-control{
+    border-radius: 3rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/*
+---------------------------------------
+---------------------------------------
+    Social Media Icons
+--------------------------------------- 
+---------------------------------------
+*/
+.fab{
+    font-size: 45px;
+    color: #000;
+}
+.fab:hover{
+    transform: translateY(-5px);
+}
+#social-media{
+    padding-top: 2rem;
+}
+#social-media .container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#subscribe .jumbotron{
+    padding-bottom: 0px;
+}
+.list-inline-item{
+    margin-right: .5rem!important;
+    margin-left: .5rem;
+}
+.fa-facebook-f:hover{
+    color: rgb(59, 89, 152);
+}
+.fa-instagram:hover{
+    border-radius: 0.5rem;
+    background: -webkit-linear-gradient(#fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-twitter:hover{
+    color: rgb(85, 172, 238);
+}
+.fa-linkedin-in:hover{
+    color: rgb(0, 130, 202);
+}
+.fa-github:hover{
+    color: rgb(51, 51, 51);
+}
+.fa-youtube:hover{
+    color: rgb(237, 48, 47);
+}
+.fa-file-pdf-o:hover{
+    color:red;
+}
+/*
+---------------------------------------
+---------------------------------------
+        Teams  Page
+--------------------------------------- 
+---------------------------------------
+*/
+.Current-Team .container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.Current-Team .card-header {
+    background-color: black!important;
+    box-shadow: inset 0px 0px 20px 11px blue !important;
+}
+.Current-Team .card-header h5{
+    color: #ffff!important;
+}
+.to-be.container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.team-member{
+    background-color: transparent;
+    border-width: 0px;
+}
+.team-member p{
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: .75rem;
+}
+.team-member hr{
+    background-color: black;
+    margin: 5px;
+}
+.team-member img{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.team-member .fab{
+    font-size: 1.5rem;
+}
+.team-member ul{
+    margin:0px;
+}
+/*
+---------------------------------------
+---------------------------------------
+        Flip-Card
+--------------------------------------- 
+---------------------------------------
+*/
+/* Flip card */
+.card-flip {
+    background: transparent;
+    border: none;
+    padding: 0px;
+}
+.card-flip .card {
+    backface-visibility: hidden;
+    transition: transform 600ms;
+    transition-timing-function: linear;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+	border-radius: 50px;
+    
+}
+.card-flip .card:first-of-type {
+    transform: rotateY(0deg);
+    
+}
+.card-flip .card:last-of-type {
+    transform: rotateY(180deg);
+    position: absolute;
+    top: 0;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card-flip:hover .card:first-of-type {
+    transform: rotateY(-180deg);
+}
+.card-flip:hover .card:last-of-type {
+    transform: rotateY(0deg);
+}
+.to-be figure{
+    margin-bottom: 5px;
+}
+/*
+---------------------------------------
+---------------------------------------
+        Accordion wrapper
+--------------------------------------- 
+---------------------------------------
+*/
+.accordion > .card{
+    border: 0px;
+    background-color: transparent;
+    padding: 10px 7px;
+}
+.accordion .card-body{
+    padding-right: 0;
+    padding-left: 0;
+}
+.accordion .card-header{
+    margin-bottom: 1px!important;
+    border: 0;
+    background-color: #ffff;
+    border-radius: 3rem!important;
+    color: black;
+    box-shadow: 0px 0px 9px 2px rgb(0 0 0 / 20%);
+}
+
+/*
+---------------------------------------
+---------------------------------------
+        Certificates  Page
+--------------------------------------- 
+---------------------------------------
+*/
+/*-----------Nav-Tabs----------*/
+.nav-tabs {
+    border-bottom: 0px;
+    margin: 10px 0px;
+}
+.nav-tabs .nav-link {
+    margin: .25rem 1.0rem;
+    border: 0px;
+    border-radius: 3rem;
+    font-weight: 600;
+    box-shadow: 0 0px 3px 3px rgb(255 255 255);
+    color: white;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: black;
+    background-color: #fff;
+    font-weight: 900;
+    border: 1px solid blue;
+    box-shadow: 0 0px 5px 8px rgb(0,17,255);
+
+}
+/*-----------Nav-Tabs-Conent---------*/
+.tab-content > .tab-pane{
+    margin: 20px 0px;
+    background-color: #e9cdf9;
+    color: black;
+    padding: .75rem;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 9px 4px #c86ffb;
+}
+/*
+---------------------------------------
+---------------------------------------
+        Lightbox
+--------------------------------------- 
+---------------------------------------
+*/
+.photo-gallery {
+    color:#313437;
+    background-color: transparent;
+}
+.photo-gallery .item {
+    padding-bottom:30px;
+}
+.photo-gallery img{
+    border-radius: 2rem;
+    box-shadow: 0 0px 8px 3px rgba(0,0,0,0.5);
+}
+.photo-gallery img:hover{
+    box-shadow: 0 0px 12px 5px rgb(13 0 255 / 67%);
+}
+/*
+---------------------------------------
+---------------------------------------
+        Robocon  Page
+--------------------------------------- 
+---------------------------------------
+*/
+.robocon-gallery{
+    padding: 17px;
+    border-radius: 1rem;
+}
+.robocon-gallery .item {
+    padding-bottom: 0px;
+}
+.robocon-gallery img {
+    border-radius: 1rem;
+    box-shadow: 0 0px 9px 3px rgb(127 127 127);
+}
+/*-----------Read-more----------*/
+#summary{
+    margin-bottom: 20px;
+}
+#summary p.collapse:not(.show) {
+    height: 180px !important;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;  
+}
+
+#summary p.collapsing {
+    min-height: 180px !important;
+}
+
+#summary a.collapsed:after  {
+    content: '+ Read More';
+}
+
+#summary a:not(.collapsed):after {
+    content: '- Read Less';
+}
+/*-----------Side-nav----------*/
+.side-nav {
+    position: fixed;
+    right: 0;
+    bottom: 30%;
+    height: 80px;
+    width: 70px;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #5555eed4;
+    color: #FFF;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: .75rem;
+    z-index: 1;
+}
+.side-nav a{
+    color: #FFF;
+}
+.fa-circle{
+    font-size: .75rem;
+}
+.side-nav .col-10, .side-nav  .col-2{
+    margin: 0px;
+    padding: 0px;
+}
+.side-nav .col-10{
+    padding-left: 5px;
+}
+.side-nav-content{
+    display: none;
+}
+.side-nav:hover, .side-nav:active{
+    width: 100px;
+}
+.side-nav:hover .side-nav-content {
+    display: inline;
+}
+/*
+---------------------------------------
+---------------------------------------
+        R&D  Page
+--------------------------------------- 
+---------------------------------------
+*/
+/*---fullside-nav-toggle----*/
+.full-side-nav-toggle{
+    position: fixed;
+    right: 0;
+    bottom: 50%;
+    height: 50px;
+    width: 40px;
+    transition: margin-right .5s;
+    padding: 5px;
+    z-index: 1;
+}
+.openbtn-side-nav {
+    font-size: 20px;
+    cursor: pointer;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    background-color: #5555eed4;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+.openbtn-side-nav:hover{
+    background-color: #000;
+}
+/*----full-side-nav -----*/
+.full-side-nav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1020!important;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+    color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    font-size: 15px;
+    font-family:'Roboto';
+    letter-spacing: 2.5px;
+    text-transform: capitalize;
+}
+.full-side-nav .row{
+    margin-left: 0px!important;
+}
+.full-side-nav a {
+    color: white;
+    transition: 0.3s;
+}
+.full-side-nav a:hover {
+    color: black;
+    font-weight: 700;
+}
+.full-side-nav .col-12{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.full-side-nav .col-12:not(.col-12:last-child){
+    border-bottom: 1px solid black;
+}
+.full-side-nav .col-12:hover{
+    color: black;
+    transform: translateY(-5px);
+}
+.full-side-nav .closebtn {
+    padding: 10px;
+    font-size: 36px;
+    color:#000;
+}
+.full-side-nav .closebtn:hover{
+    color: #FFF;
+}
+/*-----full-side-nav-content-------*/
+.full-side-nav-content {
+    background-color: #55E;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.full-side-nav-close{
+    background-color: #55E;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+/*-----fs-Light-box-------*/
+.RD-gallery {
+    color:#313437;
+    border-radius: 1rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+.RD-gallery img{
+    border-radius: .5rem;
+    box-shadow: 0 0px 8px 3px rgba(0,0,0,0.5);
+}
+.RD-gallery img:hover{
+    box-shadow: 0 0px 12px 5px rgb(13 0 255 / 67%);
+}
+.RD-gallery figcaption{
+    padding-top: 10px;
+}
+/*
+---------------------------------------
+---------------------------------------
+        Events Page
+--------------------------------------- 
+---------------------------------------
+*/
+/*-----Past Events-------*/
+.Past-Events .container{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.Past-Events .card-header {
+    background-color: black!important;
+    box-shadow: inset 0px 0px 20px 11px blue !important;
+}
+.Past-Events .card-header h5{
+    color: #ffff!important;
+}
+.Events-content{
+    padding: 17px;
+}
+.poster{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.poster-content{
+    border-radius: 1rem;
+    box-shadow: 0px 0px 7px 0px #000000ad;
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.poster img{
+    border-radius: 1rem;
+    box-shadow: 0px 0px 7px 0px #000000ad;
+    margin-bottom: 5px;
+}
+.Registraion_Close{
+    font-size: small;
+    color: red;
+}
+/*
+*
+* ==========================================
+* Change styling on viewports:
+* nav
+* font
+* scroll
+* img
+* ==========================================
+*
+*/
+/*destop*/
+
+@media all and (min-width: 768px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+
+html { font-size: 1rem; }
+
+/*phone*/
+@media (max-width: 576px) {
+    html{ font-size: 0.85rem; }
+    .team-member .card-body{font-size: 1.5rem;}/*Logo Img*/
+    img{ max-width: 100%; height: auto;}
+    .scrolling-wrapper .col-5{min-width: 80%; height: auto;}/*scroll*/
+    .side-nav{width: 70px;}
+    .full-side-nav a {font-size: 10px;}
+    .RD-gallery { border-radius: 0;}
+}
+
+@media (min-width: 768px) {
+    html { font-size: 1.25rem; }
+}

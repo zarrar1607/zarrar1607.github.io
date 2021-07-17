@@ -749,6 +749,7 @@ html { font-size: 1rem; }
     .side-nav{width: 70px;}
     .full-side-nav a {font-size: 10px;}
     .RD-gallery { border-radius: 0;}
+    .TRM_GIF{height: 75vh!important;}
 }
 
 @media (min-width: 768px) {
